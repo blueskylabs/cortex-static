@@ -1,0 +1,218 @@
+/* Media Queries - 1 */
+
+
+/* Note: Design for a below width of 1260px */
+@media only screen and (min-width: 1024px) and (max-width: 1259px) {
+.show_ipad2{ display:block}
+.hide_ipad2{ display:none}
+
+.wrapper{ width:990px}
+
+/* top-info */
+.tab-box { margin:0 0 0 15px}
+
+/* header */
+header .wrapper{ width:960px}
+
+/* banner */
+.banner{ width:98%; padding:32px 0 45px 2%}
+.banner h1{ font-size:53px; line-height:1.1em}
+.banner figure{ width:56%}
+.banner article{ width:51.5%}
+.banner aside{ width:84%}
+
+/* section block */
+.section1{ width:98%; padding:0 1%}
+.section1 aside{ width:48%; padding:0}
+.section1 aside.right{ padding:0}
+
+}
+
+
+/* Note: Design for a below width of 1024px */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+.show_ipad1{ display:block}
+.hide_ipad1{ display:none}
+
+h1{ font-size:48px}
+
+h2{ font-size:45px}
+
+.wrapper{ width:740px}
+
+.scroll-up a{ top:-20px; right:0}
+.scroll-up2 a{ top:30px; right:0}
+
+/* top-info */
+.tab-box { width:740px; margin:0}
+
+/* header */
+header .wrapper{ width:740px}
+header .logo img{ width:156px;}
+.navbar nav ul li{ padding:0 16px 0 6px}
+
+
+.top-info { margin-bottom:-90px}
+
+/* banner */
+.banner{ width:98%; padding:32px 0 32px 2%}
+.banner h1{ font-size:37px; line-height:1.1em; letter-spacing:-2px; padding-bottom:23px}
+.banner p{ font-size:18px}
+.banner figure{ width:49%; margin-left:0}
+.banner article{ width:49%}
+.banner aside{ width:100%}
+.banner .txt{ font-size:24px; line-height:30px}
+
+/* section block */
+.section1 article figure{ width:100%;; text-align:center; padding:0}
+.section1{ width:98%; padding:0 1%}
+.section1 h2{ font-size:42px}
+.section1 aside{ width:48%; padding:0}
+.section1 aside.right{ padding:0}
+
+.security-info figure{ width:30%}
+.security-info article{ padding-bottom:35px}
+.security-info .platform{ margin-bottom:-130px}
+
+.section2 p{ line-height:27px}
+.section2 article{ width:85%; padding:0 5% 22px 10%}
+.section2 aside{ width:50%}
+
+/* bottom content */
+.bottom-content{ margin:-100px 0 -180px 0}
+.anonymous-info{ width:100%; margin:0 auto}
+.anonymous-info figure{ padding-bottom:20px}
+.anonymous-info aside{ width:350px; float:right}
+
+/* footer */
+footer .section-bg { padding:263px 0 18px 0}
+footer p{ padding-left:0}
+footer .footer-logo{ margin:-8px 0 0 0}
+footer .blue-btn{ margin:0}
+}
+
+
+/* Note: Design for a width of 768px */
+@media only screen and (max-width: 767px) {
+.show_mobile1{ display:block}
+.hide_mobile1{ display:none}
+
+
+h1{ font-size:30px; letter-spacing:normal}
+
+h2{ font-size:28px; letter-spacing:normal}
+
+.wrapper{ width:93%; padding:0 3.5%}
+
+.scroll-up { display:none}
+
+
+/* top-info */
+.top-info { margin-bottom:-110px}
+
+.tab-box { width:100%; margin:0}
+.tab-box ul { width:100%}
+.tab-box ul li { width:100%; height:auto; background:none; padding:0}
+.tab-box ul li a{ width:100%; height:auto; margin:0}
+.tab-box ul li a span { width:auto; float:left; text-align:left; padding:12px 10px 7px 50px}
+.tab-box ul li.tab1 { background:none; padding:0}
+.tab-box ul li.tab1 a span { background:url(../images/img-icon01.png) no-repeat 15px center}
+.tab-box ul li.tab2 a span { background:url(../images/img-icon02.png) no-repeat 15px center}
+.tab-box ul li.tab3 a span { background:url(../images/img-icon03.png) no-repeat 15px center}
+.tab-box ul li.tab4 a span { background:url(../images/img-icon04.png) no-repeat 15px center}
+.tab-box ul li.tab5 a span { background:url(../images/img-icon05.png) no-repeat 15px center}
+.tab-box ul li.tab6 a span { background:url(../images/img-icon06.png) no-repeat 15px center}
+.tab-box ul li.tab7 a span { background:url(../images/img-icon02.png) no-repeat 15px center}
+
+.content-box { padding-top:30px}
+.content-box figure { width:94%; padding-bottom:30px}
+.content-box aside { width:100%}
+
+
+/* header */
+header { padding:15px 0 10px 0}
+header .wrapper{ width:93%; padding:0 3.5%}
+header .btn-secontary{ width:90%; float:right; text-align:left; padding:0 5%}
+
+.navbar { width:100%; padding-top:10px}
+.navbar nav{ width:100%}
+.navbar nav ul{ width:100%}
+.navbar nav ul li{ width:100%; padding:0}
+.navbar nav ul li a{ width:90%; padding:0 5%}
+.navbar nav ul li a:hover{ color:#187818}
+.navbar nav ul li a:active{ color:#187818}
+
+.navbar .accordionButton { display:block; margin:-38px 0 0 0}
+.navbar .accordionContent { width:100%; float:left; display:none}
+
+/* banner */
+.banner{ width:100%; padding:25px 0}
+.banner h1{ letter-spacing:-1px; line-height:1.1em; padding-bottom:20px}
+.banner p{ font-size:16px; padding-bottom:28px}
+.banner figure{ width:100%; float:right; text-align:center; margin:0 0 20px 0}
+.banner article{ width:100%}
+.banner aside{ width:100%}
+.banner .txt{ font-size:21px; line-height:27px; padding-bottom:0}
+.banner .txt-author{ width:100%; float:right; font-size:12px; text-align:right; padding-bottom:15px}
+
+
+/* section block */
+.list-info{ font-size:14px}
+
+.section1 article figure{ width:100%; text-align:center; padding:0}
+.section1{ width:100%; padding:0}
+.section1 aside{ width:100%; padding:0 0 25px 0}
+.section1 aside.right{ padding:0}
+
+.security-info{ width:100%; padding:0; margin:-100px 0 0 0}
+.security-info figure{ width:100%; text-align:center; margin:35px 0}
+
+.security-info .support{ text-align:center}
+.security-info .support span{ min-height:0; float:none; line-height:73px; margin:0 3%; text-align:center}
+
+.security-info aside{ width:100%}
+.security-info .platform{ margin-bottom:-120px; text-align:center}
+.security-info .platform p{ font-size:18px; line-height:24px}
+
+.section2{ width:100%; padding:0}
+.section2 h4{ line-height:18px}
+.section2 p{ font-size:18px}
+.section2 .charts{ width:100%; margin:0}
+.section2 .charts ul li{ width:20%; padding:0 2.3%}
+
+.section2 article{ width:100%; padding:0 0 22px 0}
+.section2 aside{ width:46%; padding-right:4%}
+
+
+/* bottom content */
+.bottom-content{ margin:-120px 0 -190px 0}
+.anonymous-info{ width:100%; margin:0 auto}
+.anonymous-info h2{ padding-bottom:25px}
+.anonymous-info figure{ width:90%; float:left; text-align:center; padding:0 5% 30px 5%}
+.anonymous-info aside{ min-width:280px; max-width:300px; float:none; margin:0 auto; padding:0}
+
+/* footer */
+footer .section-bg { padding:220px 0 30px 0}
+footer p{ width:100%; float:left; text-align:center; font-size:15px; padding:10px 0 20px 0}
+footer .footer-logo{ width:100%; text-align:center; margin:0}
+footer .blue-btn{ margin:0}
+footer .btn-bg{ width:200px; margin:0 auto}
+
+}
+
+
+/* Note: Design for a width of 480px */
+@media only screen and (max-width: 479px) {
+html, body { overflow-x:hidden}
+
+.show_mobile2{ display:block}
+.hide_mobile2{ display:none}
+
+/* section block */
+.section2 .charts ul li{ width:46%; padding:0 1.8% 1.8% 1.8%}
+.section2 article{ padding:0}
+.section2 aside{ width:100%; padding:0 0 25px 0}
+
+}
+
+
