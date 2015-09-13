@@ -12,6 +12,7 @@
 		2D20742418749F9B003E16A9 /* typography.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = typography.css; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.css; };
 		2D20746918749F9B003E16A9 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		2D5B7C63186E2A310067915B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		2DC90B001BA62FEF002B8E2C /* privacy */ = {isa = PBXFileReference; lastKnownFileType = text; path = privacy; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.html; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -21,6 +22,7 @@
 				2D20742118749F9B003E16A9 /* css */,
 				2D20746A18749F9B003E16A9 /* js */,
 				2D20746918749F9B003E16A9 /* index.html */,
+				2DC90B001BA62FEF002B8E2C /* privacy */,
 			);
 			path = www;
 			sourceTree = "<group>";
